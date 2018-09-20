@@ -11,7 +11,7 @@ class RedditYoutubeHaikus:
 
     logger = logging.getLogger(__name__)
 
-    def __init__(self, interval, limit=50):
+    def __init__(self, interval, limit=200):
         self.interval = interval
         self.amount = limit
 
